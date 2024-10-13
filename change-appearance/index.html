@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Appearance Changer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Times+New+Roman&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="javascript.js">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Dynamic Appearance Changer</h1>
+
+  <div class="controls">
+    <!-- Background Color Dropdown -->
+    <select id="bgColorPicker">
+      <option value="">Change Background Color</option>
+      <option value="white">White</option>
+      <option value="lightblue">Light Blue</option>
+      <option value="lightgreen">Light Green</option>
+      <option value="lightgray">Light Gray</option>
+    </select>
+
+    <!-- Font Size Slider -->
+    <label for="fontSizeSlider">Font Size: </label>
+    <input type="range" id="fontSizeSlider" min="10" max="40" value="16">
+
+    <!-- Dark Mode Toggle Button -->
+    <button id="darkModeToggle">Toggle Dark Mode</button>
+
+    <!-- Font Style Toggle Button -->
+    <button id="fontStyleToggle">Toggle Font Style</button>
+  </div>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  <script src="javascript.js"></script>
+
+</body>
+</html>
